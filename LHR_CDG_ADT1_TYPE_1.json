@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "Flight": "mitu",
+      "aircraft": "rimi",
+      "Class": "arka",
+      "Fare": 99,
+      "Route": "mmmm",
+      "Departure": "hhh",
+      "arrival": "hhh",
+      "duration": "hhh",
+      "Price": "hhh"
+    },
+    {
+      "Flight": "ff",
+      "aircraft": "qq",
+      "Class": "eee",
+      "Fare": 11,
+      "Route": "ttt",
+      "Departure": "qww",
+      "arrival": "hhh",
+      "duration": "hhh",
+      "Price": "hhh"
+    }
+  ]
+}

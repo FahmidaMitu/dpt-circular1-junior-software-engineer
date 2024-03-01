@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flight Search</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
     />
-    <!-- Add any additional stylesheets or scripts if needed -->
   </head>
-  <body class="bg-gray-200">
+  <body>
     <div class="container mx-auto mt-8">
       <form id="flightSearchForm" class="bg-white p-8 rounded shadow-md">
         <!-- Departure Airport -->
@@ -75,9 +74,9 @@
       </div>
     </div>
 
-    <button>Search</button>
-
+    <div id="flight"></div>
     <script>
+      
 
 
 
@@ -86,20 +85,29 @@
 
 
 
-
-
-
-
-        document.getElementById('flightSearchForm').addEventListener('submit', function(event) {
-
-
-      fetch('./LHR_CDG_ADT1_TYPE_1.json')
-        .then((res) => res.json())
-        .then((data) => {
-
-            data.forEach(function(item){
-                table +=
-                <tr>
+      document
+        .getElementById('flightSearchForm')
+        .addEventListener('Search', function (event) {
+          event.preventDefault(); // Prevent the form from submitting traditionally
+          let table = (
+            <tr>
+              <th>Flight</th>
+              <th>aircraft</th>
+              <th>Class</th>
+              <th>Fare</th>
+              <th>Route</th>
+              <th>Departure</th>
+              <th>arrival</th>
+              <th>duration</th>
+              <th>Price</th>
+            </tr>
+          );
+          fetch('./LHR_CDG_ADT1_TYPE_1.jsonLHR_CDG_ADT1_TYPE_1.json')
+            .then((res) => res.json())
+            .then((data) => {
+              data.forEach(function (item) {
+                table += (
+                  <tr>
                     <td>${item.Flight}</td>
                     <td>${item.aircraft}</td>
                     <td>${item.Class}</td>
@@ -110,16 +118,12 @@
                     <td>${item.duration}</td>
                     <td>${item.Price}</td>
                   </tr>
-            }
-            )
-
-
-
-            console.log('hello show data: ', data);
+                );
+              });
+            });
         });
-    </script>
 
-    <!-- Include your JavaScript file -->
-    <script src="app.js"></script>
+      document.getElementById('flight').innerHTML = table;
+    </script>
   </body>
 </html>
