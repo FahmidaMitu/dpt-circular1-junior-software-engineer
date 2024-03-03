@@ -59,64 +59,67 @@
         </div>
 
         <!-- Search Button -->
-        <div class="flex items-center justify-end">
-          <button
-            type="submit"
-            class="bg-blue-500 text-white px-4 py-2 rounded-md"
-          >
-            Search
-          </button>
-        </div>
+        <button type="submit" class="flex items-center justify-end bg-blue-500 text-white py-2 px-4 rounded-r-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-500">
+          Search
+        </button>
       </form>
-
-      <!-- Flight Results Container -->
-      <div id="flightResults" class="mt-8">
-        <!-- Flight results will be displayed here -->
-      </div>
     </div>
 
-    <button>Search</button>
+    <div class="bg-gray-100 p-8">
+      <table class="w-full border-collapse bg-white shadow-md">
+        <thead>
+          <tr class="bg-gray-100">
+            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">Flight</th>
+            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">Aircraft</th>
+            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">Class</th>
+            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">Fare</th>
+            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">Route</th>
+            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">Departure</th>
+            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">Arrival</th>
+            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">Duration</th>
+            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">Price</th>
+          </tr>
+        </thead>
+        <tbody id="data-output" class="p4">
+          <!-- Prodcuts from javascript file in here. -->
+        </tbody>
+      </table>
+    </div>
 
     <script>
+      let flightSearchForm = document.querySelector('#flightSearchForm');
 
+      flightSearchForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+        fetch('products.json')
+          .then(function (response) {
+            return response.json();
+          })
+          .then(function (products) {
+            let placeholder = document.querySelector('#data-output');
+            let out = '';
+            for (let product of products) {
+              out += `
+              
+         <tr>
+            <td>${product.Flight} </td>
+            <td>${product.Aircraft}</td>
+            <td>${product.Class}</td>
 
-
-
-
-
-
-
-
-
-
-
-        document.getElementById('flightSearchForm').addEventListener('submit', function(event) {
-
-
-      fetch('./LHR_CDG_ADT1_TYPE_1.json')
-        .then((res) => res.json())
-        .then((data) => {
-
-            data.forEach(function(item){
-                table +=
-                <tr>
-                    <td>${item.Flight}</td>
-                    <td>${item.aircraft}</td>
-                    <td>${item.Class}</td>
-                    <td>${item.Fare}</td>
-                    <td>${item.Route}</td>
-                    <td>${item.Departure}</td>
-                    <td>${item.arrival}</td>
-                    <td>${item.duration}</td>
-                    <td>${item.Price}</td>
-                  </tr>
+            <td>${product.Fare}</td>
+            <td>${product.Route}</td>
+            <td>${product.Departure}</td>
+            
+            <td>${product.Arrival}</td>
+            <td>${product.Duration}</td>
+            <td>${product.Price}</td>
+         </tr>
+      `;
             }
-            )
 
-
-
-            console.log('hello show data: ', data);
-        });
+            placeholder.innerHTML = out;
+          });
+      });
     </script>
 
     <!-- Include your JavaScript file -->

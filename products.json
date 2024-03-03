@@ -1,0 +1,407 @@
+[
+  {
+    "Flight": "TK 333",
+    "Aircraft": "723",
+    "Class": "E",
+    "Fare": "EF1PXOW",
+    "Route": "DAC-IST",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 73H",
+    "Aircraft": "1865",
+    "Class": "E",
+    "Fare":"EF1PXOW",
+    "Route": "IST-FCO",
+    "Departure": "2022-11-23T12:55:00",
+    "Arrival": "2022-11-23T13:30:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 333",
+    "Aircraft": "723",
+    "Class": "E",
+    "Fare": "EF1PXOW",
+    "Route": "DAC-IST",
+    "Departure": "2022-11-22T06:55:00",
+    "Arrival": "2022-11-22T12:55:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 73H",
+    "Aircraft": "1865",
+    "Class": "E",
+    "Fare":"EF1PXOW",
+    "Route": "IST-FCO",
+    "Departure": "2022-11-22T20:30:00",
+    "Arrival": "2022-11-22T21:20:00",
+    "Duration": "26H 50M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 333",
+    "Aircraft": "723",
+    "Class": "Q",
+    "Fare": "EF1PXOW",
+    "Route": "DAC-IST",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "26H 50M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 73H",
+    "Aircraft": "1865",
+    "Class": "Q",
+    "Fare":"EF1PXOW",
+    "Route": "IST-FCO",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 333",
+    "Aircraft": "723",
+    "Class": "O",
+    "Fare": "EF1PXOW",
+    "Route": "DAC-IST",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 73H",
+    "Aircraft": "1865",
+    "Class": "O",
+    "Fare":"EF1PXOW",
+    "Route": "IST-FCO",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "16H 05M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 333",
+    "Aircraft": "723",
+    "Class": "E",
+    "Fare": "EF1PXOW",
+    "Route": "DAC-IST",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "16H 05M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 73H",
+    "Aircraft": "1865",
+    "Class": "O",
+    "Fare":"EF1PXOW",
+    "Route": "IST-FCO",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "35H 35M",
+    "Price": "732.30"
+  },
+
+  {
+    "Flight": "TK 333",
+    "Aircraft": "723",
+    "Class": "E",
+    "Fare": "EF1PXOW",
+    "Route": "DAC-KWI",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 73H",
+    "Aircraft": "1865",
+    "Class": "V",
+    "Fare":"EF1PXOW",
+    "Route": "IST-KWI",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "745.15"
+  },
+
+  {
+    "Flight": "TK 333",
+    "Aircraft": "723",
+    "Class": "V",
+    "Fare": "EF1PXOW",
+    "Route": "DAC-IST",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "745.15"
+  },
+
+  {
+    "Flight": "TK 73H",
+    "Aircraft": "1865",
+    "Class": "S",
+    "Fare":"EF1PXOW",
+    "Route": "IST-AUH",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "14H 00M",
+    "Price": "832.30"
+  },
+
+  {
+    "Flight": "TK 333",
+    "Aircraft": "723",
+    "Class": "E",
+    "Fare": "EF1PXOW",
+    "Route": "DAC-IST",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 73H",
+    "Aircraft": "1865",
+    "Class": "E",
+    "Fare":"EF1PXOW",
+    "Route": "IST-FCO",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 333",
+    "Aircraft": "723",
+    "Class": "E",
+    "Fare": "EF1PXOW",
+    "Route": "DAC-IST",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 73H",
+    "Aircraft": "1865",
+    "Class": "E",
+    "Fare":"EF1PXOW",
+    "Route": "IST-FCO",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 333",
+    "Aircraft": "723",
+    "Class": "E",
+    "Fare": "EF1PXOW",
+    "Route": "DAC-IST",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 73H",
+    "Aircraft": "1865",
+    "Class": "E",
+    "Fare":"EF1PXOW",
+    "Route": "IST-FCO",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 333",
+    "Aircraft": "723",
+    "Class": "E",
+    "Fare": "EF1PXOW",
+    "Route": "DAC-IST",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 73H",
+    "Aircraft": "1865",
+    "Class": "E",
+    "Fare":"EF1PXOW",
+    "Route": "IST-FCO",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+  {
+    "Flight": "TK 333",
+    "Aircraft": "723",
+    "Class": "E",
+    "Fare": "EF1PXOW",
+    "Route": "DAC-IST",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 73H",
+    "Aircraft": "1865",
+    "Class": "E",
+    "Fare":"EF1PXOW",
+    "Route": "IST-FCO",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+  {
+    "Flight": "TK 333",
+    "Aircraft": "723",
+    "Class": "E",
+    "Fare": "EF1PXOW",
+    "Route": "DAC-IST",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 73H",
+    "Aircraft": "1865",
+    "Class": "E",
+    "Fare":"EF1PXOW",
+    "Route": "IST-FCO",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+  {
+    "Flight": "TK 333",
+    "Aircraft": "723",
+    "Class": "E",
+    "Fare": "EF1PXOW",
+    "Route": "DAC-IST",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 73H",
+    "Aircraft": "1865",
+    "Class": "E",
+    "Fare":"EF1PXOW",
+    "Route": "IST-FCO",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+  {
+    "Flight": "TK 333",
+    "Aircraft": "723",
+    "Class": "E",
+    "Fare": "EF1PXOW",
+    "Route": "DAC-IST",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 73H",
+    "Aircraft": "1865",
+    "Class": "E",
+    "Fare":"EF1PXOW",
+    "Route": "IST-FCO",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+  {
+    "Flight": "TK 333",
+    "Aircraft": "723",
+    "Class": "E",
+    "Fare": "EF1PXOW",
+    "Route": "DAC-IST",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 73H",
+    "Aircraft": "1865",
+    "Class": "E",
+    "Fare":"EF1PXOW",
+    "Route": "IST-FCO",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+  {
+    "Flight": "TK 333",
+    "Aircraft": "723",
+    "Class": "E",
+    "Fare": "EF1PXOW",
+    "Route": "DAC-IST",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  },
+
+  {
+    "Flight": "TK 73H",
+    "Aircraft": "1865",
+    "Class": "E",
+    "Fare":"EF1PXOW",
+    "Route": "IST-FCO",
+    "Departure": "2022-11-22T23:30:00",
+    "Arrival": "2022-11-23T05:40:00",
+    "Duration": "19H 00M",
+    "Price": "632.30"
+  }
+
+
+
+
+]
