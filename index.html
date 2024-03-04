@@ -13,53 +13,70 @@
   <body class="bg-gray-200">
     <div class="container mx-auto mt-8">
       <form id="flightSearchForm" class="bg-white p-8 rounded shadow-md">
-        <!-- Departure Airport -->
+        <div class="flex items-center justify-center h-full pb-10">
+          <div class="mt-4 flex pb-10">
+            <select
+              id="select"
+              class="border border-black focus:outline-none focus:border-blue-500"
+            >
+              <option>Round trip</option>
+              <option>One way</option>
+              <option>Multi City</option>
+            </select>
+          </div>
+        </div>
+
         <div class="mb-4">
-          <label
-            for="departureAirport"
-            class="block text-sm font-medium text-gray-600"
-            >Departure Airport</label
-          >
           <input
             type="text"
             id="departureAirport"
             name="departureAirport"
-            class="mt-1 p-2 w-full border rounded-md"
+            placeholder="LRH"
+            class="border-black mt-1 p-2 bg-gray-200"
           />
-        </div>
-
-        <!-- Destination Airport -->
-        <div class="mb-4">
-          <label
-            for="destinationAirport"
-            class="block text-sm font-medium text-gray-600"
-            >Destination Airport</label
-          >
           <input
             type="text"
-            id="destinationAirport"
-            name="destinationAirport"
-            class="mt-1 p-2 w-full border rounded-md"
+            id="departureAirport"
+            placeholder="CDG"
+            name="CDG"
+            class="mt-1 p-2 bg-gray-200"
           />
-        </div>
-
-        <!-- Departure Date -->
-        <div class="mb-4">
-          <label
-            for="departureDate"
-            class="block text-sm font-medium text-gray-600"
-            >Departure Date</label
-          >
           <input
             type="date"
             id="departureDate"
             name="departureDate"
-            class="mt-1 p-2 w-full border rounded-md"
+            class="mt-1 p-2 bg-gray-200"
           />
+          <select
+            id="select"
+            class="bg-gray-200 border border-black focus:outline-none focus:border-blue-500"
+          >
+            <option>Any Time</option>
+            <option>1</option>
+            <option>2</option>
+          </select>
+          <select
+            id="select"
+            class="bg-gray-200 border border-black focus:outline-none focus:border-blue-500"
+          >
+            <option>ADT</option>
+            <option>1</option>
+            <option>2</option>
+          </select>
+          <select
+            id="select"
+            class="bg-gray-200 border border-black focus:outline-none focus:border-blue-500"
+          >
+            <option>1</option>
+            <option>2</option>
+          </select>
         </div>
 
         <!-- Search Button -->
-        <button type="submit" class="flex items-center justify-end bg-blue-500 text-white py-2 px-4 rounded-r-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-500">
+        <button
+          type="submit"
+          class="flex items-center justify-end bg-blue-500 text-white py-2 px-4 rounded-r-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-500"
+        >
           Search
         </button>
       </form>
@@ -69,15 +86,31 @@
       <table class="w-full border-collapse bg-white shadow-md">
         <thead>
           <tr class="bg-gray-100">
-            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">Flight</th>
-            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">Aircraft</th>
-            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">Class</th>
+            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">
+              Flight
+            </th>
+            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">
+              Aircraft
+            </th>
+            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">
+              Class
+            </th>
             <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">Fare</th>
-            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">Route</th>
-            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">Departure</th>
-            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">Arrival</th>
-            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">Duration</th>
-            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">Price</th>
+            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">
+              Route
+            </th>
+            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">
+              Departure
+            </th>
+            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">
+              Arrival
+            </th>
+            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">
+              Duration
+            </th>
+            <th class="py-2 px-4 border-b border-gray-300 bg-gray-200">
+              Price
+            </th>
           </tr>
         </thead>
         <tbody id="data-output" class="p4">
